@@ -1,0 +1,96 @@
+*{margin: 0; padding:0; box-sizing: border-box;}
+
+.container-fluid{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;   
+  }
+
+.adjust{
+  margin-top:2rem;
+
+}
+
+
+.sizo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image{
+  background-image: url(IMAGES/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-56228.avif);
+color: beige;
+
+padding: 2rem 2rem 2rem 2rem
+}
+
+.image h5{
+  font-size: 0.5em; }
+.image h3{font-size: 1em;}
+.image p{font-size: 0.5em;}
+
+.buttTexture{
+  border: solid 1px rgb(234, 242, 234);
+  height:2rem;
+  width:7rem;
+  border-radius: 20px;
+  font-size: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.card2{
+  border: solid 1px rgb(166, 159, 159);
+  margin-top: 0.3rem;
+}
+
+.card2 h2{
+  color:rgb(3, 3, 56);
+  font-size:0.5rem;
+  font-weight:bold ;
+  padding: 0.1rem 1rem 0rem 1rem
+}
+.card2 p{color:rgb(75, 75, 78);
+  font-size: 8px;
+  padding: 0rem 1rem 0rem 1rem}
+
+.smallLineTexture{
+  border: solid 1px rgb(168, 174, 168);
+  margin: 0.3rem 1rem 0rem 1rem;
+  height:0
+}
+
+.smallSymbol{
+  display: flex;
+  color:rgb(3, 3, 56);
+  font-size:0.5rem;
+  font-weight:bold ;
+}
+
+.smallSymbol img{
+  width:0.8rem;
+  height:0.8rem
+}
+
+.card2Distance{
+  display:flex;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+}
+
+.leftMarg{
+  margin-left: 0.3rem;
+}
+
+.card1{margin-top:0.2rem}
+
+.Move{
+  width:2rem;
+  height: 2rem;
+  margin: -2.5rem 0 0 1rem;
+  border: solid 0.2rem rgb(218, 211, 211);
+  border-radius: 100%;
+}
+
+
